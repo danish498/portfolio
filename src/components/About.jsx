@@ -31,25 +31,25 @@ const About = () => {
           <p className='text-2xl font-bold mb-6'>Get to know me</p>
           <div className='text-lg text-gray-500 tracking-normal font-normal leading-7 mb-3 '>
             <p>
-              I&apos;m a
+              I&apos;m a{' '}
               <span className='font-semibold  text-gray-600 '>
                 front-end developer
-              </span>
+              </span>{' '}
               who loves to build with new cutting-edge technologies. I always
               believe that as a developer, it&apos;s your responsibility to
               build a bridge between creativity and functionality, and create
-              seamless user experiences. You can find some of my work in the
-              <span className='font-semibold  text-gray-600 '>projects</span>
+              seamless user experiences. You can find some of my work in the{' '}
+              <span className='font-semibold  text-gray-600 '>projects</span>{' '}
               section.
             </p>
             <p className='mt-5'>
-              I am open to
-              <span className='font-semibold  text-gray-600 '>job</span>
+              I am open to{' '}
+              <span className='font-semibold  text-gray-600 '>job</span>{' '}
               opportunities where I can contribute to the growth of both the
               company and myself. If there is any opportunity that aligns with
-              my skills and experience, please do not hesitate to
+              my skills and experience, please do not hesitate to{' '}
               <span className='font-semibold  text-gray-600 '>contact</span> me.
-              You can also
+              You can also{' '}
               <span className='font-semibold  text-gray-600 '>
                 download my resume
               </span>
