@@ -18,7 +18,7 @@ const Home = () => {
             Hi, There!
           </p>
           <h1 className='text-black text-3xl  md:text-7xl font-bold uppercase md:tracking-wide  '>
-            I'm <span className='text-mediumturquoise'>Daanish Alam</span>
+            I&apos;m <span className='text-mediumturquoise'>Daanish Alam</span>
           </h1>
           <p
             className='text-gray-800 t text-center  lg:px-80 md:px-10 sm:px-4 px-1 

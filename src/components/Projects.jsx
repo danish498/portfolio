@@ -48,7 +48,7 @@ const Projects = () => {
         />
         <ProjectCard
           name='Hacker News'
-          GitHub='https://github.com/danish498/hacker-news'
+          GitHub='https://github.com/danish498/portfolio'
           live='https://hacker-news-g1b6.vercel.app/'
           image='images/portfolio.png'
           alt='protfolio'
