@@ -28,7 +28,7 @@ const Projects = () => {
           live='https://gaal-setter.cyclic.app/login'
           alt='goal_setter'
           image='images/goal-settter.png'
-          description=' Personal Chat Room or Workspace to share resources and hangout with friends build with react js Material-UI and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.'
+          description=' In this Goal Setter App, I used JWT authentication for user signup and login. Once a user registers, they can create and delete goals. The entire process is supported by the backend using Node, Express, and MongoDB. For state management, I used Redux Toolkit.'
         />
         <ProjectCard
           name='Conduit'
@@ -36,7 +36,15 @@ const Projects = () => {
           live='https://conduit-indol.vercel.app/'
           image='images/conduit.png'
           alt='conduit'
-          description=' Personal Chat Room or Workspace to share resources and hangout with friends build with react js Material-UI and Firebase. Have   features which allows user for realtime messaging, image sharing as  well as supports reactions on messages.'
+          description='The Conduit App is a great example of using REST API and Routes. I implemented all CRUD operations including creating, deleting, and updating news, as well as implementing JWT authentication. With multiple routes and protected routes. Additionally, I built this app using Next.js, TypeScript, Formik, and MobX.'
+        />
+        <ProjectCard
+          name='Personal Portfolio'
+          GitHub='https://github.com/danish498/portfolio'
+          live='https://daanishnoor.vercel.app/'
+          image='images/portfolio.png'
+          alt='protfolio'
+          description=' This is my personal portfolio app where I used Next.js and Tailwind CSS. I aimed to make the app responsive and user-friendly. I also incorporated Email.js for the contact form and added a resume download button. Additionally, I implemented scroll behavior for improved user experience. I will continue to enhance the app with new features and improvements.'
         />
         <ProjectCard
           name='Hacker News'
@@ -44,15 +52,7 @@ const Projects = () => {
           live='https://hacker-news-g1b6.vercel.app/'
           image='images/hacker-news.png'
           alt='hacker_news'
-          description=' Personal Chat Room or Workspace to share resources and hangout with friends build with react js Material-UI and Firebase. Have   features which allows user for realtime messaging, image sharing as  well as supports reactions on messages.'
-        />
-        <ProjectCard
-          name='Hacker News'
-          GitHub='https://github.com/danish498/portfolio'
-          live='https://hacker-news-g1b6.vercel.app/'
-          image='images/portfolio.png'
-          alt='protfolio'
-          description=' Personal Chat Room or Workspace to share resources and hangout with friends build with react js Material-UI and Firebase. Have   features which allows user for realtime messaging, image sharing as  well as supports reactions on messages.'
+          description='Hacker News is a great example of implementing multiple endpoint API calls effectively. I built this app using  React, Redux and Redux Thunk for state management. I also incorporated displaying news data on a dropdown menu for a streamlined user experience. Additionally, The design of this app is little compex which help me undertand more CSS. '
         />
       </div>
     </div>

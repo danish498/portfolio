@@ -7,15 +7,10 @@ const About = () => {
     <div
       id='about'
       className='pt-20 bg-gradient-to-r from-neutral-100 to-stone-50  '
-      // style={{
-      //   background:
-      //     'linear-gradient(to right, rgba(245,245,245, 0.8) , rgba(255,255,255,1) 35%), url("images/bg.svg")',
-      //   // backgroundImage: `url("images/bg.svg")`s,
-      // }}
     >
       <div className='flex flex-col items-center '>
         <h1
-          className='  text-4xl uppercase font-bold pt-10 pb-3 tracking-wide'
+          className='  text-4xl uppercase font-bold pt-10 pb-3 tracking-wide '
           id='project'
         >
           About Me
