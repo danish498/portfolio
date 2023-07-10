@@ -4,6 +4,7 @@ import Button from './common/Button';
 
 const Contact = () => {
   const [loading, setIsLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
   const [formData, setFormData] = useState({
     user_name: '',
     user_email: '',
@@ -34,6 +35,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setSuccess(true);
           setIsLoading(false);
         },
         (error) => {
@@ -48,7 +50,7 @@ const Contact = () => {
   };
 
   const handleDownload = () => {
-    const fileUrl = 'images/my-resume.pdf';
+    const fileUrl = 'images/__danishResume.pdf';
     window.open(fileUrl, '_blank');
   };
 
@@ -132,6 +134,15 @@ const Contact = () => {
               onChange={handleChange}
             ></textarea>
           </div>
+          {success ? (
+            <div className='flex items-center justify-center mb-6'>
+              <h1 className='text-mediumturquoise font-semibold'>
+                Your message has been send.
+              </h1>
+            </div>
+          ) : (
+            ''
+          )}
           <div className='flex items-center justify-end'>
             <Button
               className='font-semibold text-lg uppercase px-12 py-3'

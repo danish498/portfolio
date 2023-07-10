@@ -3,6 +3,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -15,7 +16,12 @@ const Footer = () => {
             </h1>
             <p className='text-white  text-lg lg:mr-36  '> Copywrite © 2023 </p>
             <div className='flex gap-3 '>
-              <FaLinkedinIn color='white' size={20} />
+              <Link
+                href='https://www.linkedin.com/in/daanishnoor/'
+                target='_blank'
+              >
+                <FaLinkedinIn color='white' size={20} />
+              </Link>
               <AiFillGithub color='white' size={20} />
               <AiOutlineTwitter color='white' size={20} />
               <AiFillInstagram color='white' size={20} />
